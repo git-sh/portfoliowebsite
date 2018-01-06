@@ -34,6 +34,10 @@ b {
     font-size: 1.2em;
 }
 
+img {
+	width: 100%;
+}
+
 /*----------------- HEADER//MENU ------------------*/
 
 header img {
@@ -142,21 +146,29 @@ li.dropdown {
 #forside {
     width: 90%;
     height: 100%;
-    margin: 0 auto;
+    margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
 }
 
-#portfolio .forside {
-	padding-top: 50px;
-	width: 90%;
+.sectionwrapper {
+    display: flex;
     height: 100%;
-    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
 }
 
-#forside img {
-    max-height: 50%;
-    max-width: 100%;
-    padding-top: 50px;
+.column {
+    padding: 0 5px 0px 5px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color:#f0f0f0;
 }
+
+
+
+
 
 
 /*----------------- MOCKUP -------------*/
